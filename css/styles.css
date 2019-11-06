@@ -221,6 +221,11 @@ background-color (light gray): #B0B0B2
   width: 200px;
   margin-right: 50px;
 }
+
+#moment {
+  height: 70px;
+  width: 200px;
+  margin-right: 50px;
 }
 
 
@@ -431,7 +436,7 @@ background-color (light gray): #B0B0B2
   }
 }
 
-@media all and (min-width: 500px) and (max-width: 750px) {
+@media all and (min-width: 500px) and (max-width: 1100px) {
   .grid {
     grid-template-columns: 1fr 1fr;
   }
